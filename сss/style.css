@@ -1,3 +1,95 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
     text-align: center;
+    border: 1px solid black;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+.font {
+    font-family: Gabriela;
+}
+.sp {
+    margin: 65px;
+}
+
+
+.block1{
+    background-color:rgb(255, 253, 116) ;
+    color: blue;
+    font-family: Alumni Sans;
+}
+.block2 {
+    background-color: indianred;
+    color: rgb(196, 202, 255);
+    font-family: Alumni Sans;
+}
+.block3 {
+background-color: aqua;
+color: green;
+font-family: Alumni Sans;
+}
+.block4 {
+    background-color: blueviolet;
+    color: rgb(255, 0, 128);
+    font-family: Alumni Sans;
+}
+.block11 {
+    border: 1.5px solid black;
+    width: 80px;
+    height: 17px;
+    background-color:rgb(214, 206, 255);
+    color: brown;
+    font-size: 120%;
+    font-family: Prosto One;
+    float: left;
+    position: relative;
+}
+.block22{
+    border: 1.5px solid black;
+    width: 80px;
+    height: 19px;
+    background-color: rgb(34, 33, 121);
+    float:left ;
+    position: relative;
+    top: 106px;
+    color: lavenderblush;
+    font-size: 120%;
+    font-family: Prosto One;
+
+}
+.block33 {
+    border: 1.5px solid black;
+    width: 90px;
+    height: 19px;
+    background-color: rgb(243, 227, 9);
+    float: left;
+    position: relative;
+    top: 100px;
+    color: olive;
+    font-size: 120%;
+    font-family: Prosto One;
+
+}
+.block44{ 
+    border: 1.5px solid black;
+    width: 134px;
+    height: 21px;
+    background-color: aliceblue;
+    float: left;
+    position: relative;
+    top: 283px;
+    color: palevioletred;
+    font-size: 120%;
+    font-family: Prosto One;
 }
